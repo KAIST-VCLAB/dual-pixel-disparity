@@ -1,0 +1,16 @@
+{
+    "general": {
+        "seed": 777
+    },
+    "model": {
+        "train_iters": 22,
+        "valid_iters": 32,
+        "corr_implementation": "reg",
+        "shared_backbone": true,
+        "corr_levels": 5,
+        "corr_radius": 8,
+        "n_downsample": 2,
+        "n_gru_layers": 3,
+        "hidden_dims": [128, 128, 128]
+    }
+}

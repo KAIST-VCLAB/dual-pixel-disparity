@@ -1,0 +1,10 @@
+core/
+result/
+
+*.pyc
+__pycache__
+
+.vscode
+.empty
+.DS_Store
+.idea

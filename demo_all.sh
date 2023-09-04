@@ -1,0 +1,3 @@
+python demo.py -data_name "CanonDPDepth" -save_disp -l "../data/Punnappurath_ICCP_2020/*_L.jpg" -r "../data/Punnappurath_ICCP_2020/*_R.jpg" -gt "../data/Punnappurath_ICCP_2020/*_D.TIF";
+python demo.py -data_name "PixelDPXin" -save_disp -l "../data/Xin_ICCV_2021/*_left.png" -r "../data/Xin_ICCV_2021/*_right.png" -gt "../data/Xin_ICCV_2021/gt_defocus_map/*_gt.png";
+python demo.py -data_name "CanonDPDeblur" -save_disp -l="../data/Abuolaim_ECCV_2020/canon/test_l/source/*.png" -r="../data/Abuolaim_ECCV_2020/canon/test_r/source/*.png";
